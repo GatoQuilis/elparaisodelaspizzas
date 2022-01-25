@@ -1,0 +1,35 @@
+{
+  "name": "exit",
+  "version": "1.0.0",
+  "description": "proyecto grupal #05",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.13.0",
+    "method-override": "^3.0.0",
+    "multer": "^1.4.3",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.13",
+    "sequelize": "^6.12.0-beta.2",
+    "sequelize-cli": "^6.3.0"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fvignoles/grupo_05_e-pizza.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fvignoles/grupo_05_e-pizza/issues"
+  },
+  "homepage": "https://github.com/fvignoles/grupo_05_e-pizza#readme"
+}
